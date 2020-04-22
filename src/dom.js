@@ -165,7 +165,7 @@ window.dom = {
         let x = node.nextSibling
         while(x && x.nodeType === 3){
             x = x.nextSibling
-            // "1"表示节点；“3”表示文本
+            // "1"表示节点是元素节点；“3”表示文本
         }
         return x
     },
@@ -173,7 +173,7 @@ window.dom = {
         let x = node.previousSibling
         while(x && x.nodeType === 3){
             x = x.previousSibling
-            // "1"表示节点；“3”表示文本
+            // "1"表示节点是元素节点；“3”表示文本
         }
         return x
     },
